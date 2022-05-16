@@ -1,0 +1,208 @@
+<html>
+<head>
+  <title>Entry Animation</title>
+</head>
+  <body>
+    <center>
+      <h1 >
+        UNUSUAL PLANTS
+      </h1>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div class = "box">
+      <a onclick = href="file:///C:/Users/Sarth/OneDrive/Documents/Group%205%20.html">Continue</a>
+        </div>
+    </center>
+<style>
+@import url(https://fonts.googleapis.com/css?family=Chewy);
+
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+h1{
+  font-family: 'Chewy', sans-serif;
+  font-size:5em;
+  text-align:center;
+  font-weight:900;
+  background-image:url(https://i.ytimg.com/vi/NJA339nsMbM/maxresdefault.jpg);
+  background-size:cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color:transparent;
+  animation-name:text;
+  animation-duration:7s;
+  transition-duration:.1s;
+  margin-top:200px;
+}
+
+@keyframes text{
+  0%{
+    letter-spacing:20px;
+  }
+  25%{
+    font-size:7em;
+    letter-spacing:50px;
+  }
+  50%{
+    font-size:3em;
+    letter-spacing:20px;
+  }
+  70%{
+    transform: skewY(20deg);
+  }
+  85%{
+    transform: skewY(20deg);
+  }
+  95%{
+    transform: skewY(20deg);
+  }
+  100%{
+    font-size:5em;
+    letter-spacing:20px;
+  }
+}
+
+
+h3{
+  font-family: 'Raleway';
+}
+
+body{
+  background-color:skyblue;
+  animation-name:background;
+  transition-duration:.5s;
+}
+
+@keyframes background{
+  0%{
+    background-color:skyblue;
+  }
+  20%{
+    background-color:tomato;
+  }
+  40%{
+    background-color:chartreuse;
+  }
+  60%{
+    background-color:teal;
+  }
+  80%{
+    background-color:violet;
+  }
+  100%{
+    background-color:wheat;
+  }
+}
+
+  a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+  
+}
+a span {
+  position: absolute;
+  display: block;
+}
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+a{
+  size:100px;
+}
+a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+@keyframes btn-anim1 {
+  0% {
+    left: -100%;
+  }
+  50%,100% {
+    left: 100%;
+  }
+}
+
+ a span:nth-child(2) {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: btn-anim2 1s linear infinite;
+  animation-delay: .25s
+}
+
+@keyframes btn-anim2 {
+  0% {
+    top: -100%;
+  }
+  50%,100% {
+    top: 100%;
+  }
+}
+
+ a span:nth-child(3) {
+  bottom: 0;
+  right: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: btn-anim3 1s linear infinite;
+  animation-delay: .5s
+}
+
+@keyframes btn-anim3 {
+  0% {
+    right: -100%;
+  }
+  50%,100% {
+    right: 100%;
+  }
+}
+
+x a span:nth-child(4) {
+  bottom: -100%;
+  left: 0;
+  width: 2px;
+  height: 100%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: btn-anim4 1s linear infinite;
+  animation-delay: .75s
+}
+
+@keyframes btn-anim4 {
+  0% {
+    bottom: -100%;
+  }
+  50%,100% {
+    bottom: 100%;
+  }
+}
+.box{
+background: linear-gradient(to bottom right, #001E6C,#035397);
+width:400px;
+height:auto;
+margin: 20px auto;
+font-family:'Ubuntu', sans-serif;
+box-shadow: 0 6px 20px 0 rgba(53,53,53,0.5)
+}
+</style>
+  </body>
+</html>
